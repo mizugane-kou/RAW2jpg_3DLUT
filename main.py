@@ -38,6 +38,8 @@ def convert_raw_to_tif_with_lut(raw_filename, lut_path):
         .replace('.cr3', '-lut.jpg')
         .replace('.RAF', '-lut.jpg')
         .replace('.raf', '-lut.jpg')
+        .replace('.ORF', '-lut.jpg')
+        .replace('.orf', '-lut.jpg')                                   
         .replace('.ARW', '-lut.jpg')
         .replace('.arw', '-lut.jpg'))
  
@@ -51,7 +53,7 @@ if __name__ == "__main__":
     lut_file = "mk_neko_4.cube"  # 使用するLUTファイルのパス 
  
     # 処理対象の拡張子リスト 
-    valid_extensions = {'.nef', '.NEF', '.dng', '.DNG', '.cr3', '.CR3', '.raf', '.RAF', '.arw', '.ARW'}
+    valid_extensions = {'.nef', '.NEF', '.dng', '.DNG', '.cr3', '.CR3', '.raf', '.RAF', '.orf', '.ORF', '.arw', '.ARW'}
 
  
     # 拡張子チェック（小文字で比較） 
