@@ -8,4 +8,6 @@ RAWに3DLUTを当てて現像できるPythonとバッチです。
 ```
 pip install rawpy opencv-python pillow pillow-lut numpy
 ```
-  
+
+    
+<img src="img/sample.png" width="512">
