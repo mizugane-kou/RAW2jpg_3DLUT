@@ -10,4 +10,4 @@ pip install rawpy opencv-python pillow pillow-lut numpy
 ```
 
     
-<img src="img/sample.png" width="512">
+<img src="sample.png" width="512">
